@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&family=Source+Code+Pro:ital,wght@0,200;0,400;1,200&family=Taviraj:ital,wght@0,100;0,400;1,100&display=swap');
+
+:root{
+    --main-color-pink:rgb(255 90 95 );
+    --main-color-blue:rgb(0 166 153);
+    --main-color-orange:rgb(252 100 45);
+    --main-color-gray: rgb(72 72 72);
+    --main-color-foggy:rgb (118 118 118);
+}
+
+:root{
+    --font-lato: 'Lato', sans-serif;
+    --font-taviraj: 'Taviraj', serif;
+    --font-code: 'Source Code Pro', monospace;
+}
+
+body{
+    padding: 0 60px;
+    font-family: var(--font-lato);
+
+}
+
+.container-colors , .container-font , .container-styles {
+    
+    border: 1px solid gray;
+    margin: 10px 0px;
+
+}
+
+.font{
+
+    display: flex;
+    margin-left: 10px;
+    margin-top: -20px;
+
+}
+
+.colors{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;    
+}
+
+h1{
+    
+    color:black;
+    text-align: left;
+}
+
+h3{
+    padding: 5px 0px 0px 10px;
+    font-weight: bold;
+}
+.color-panel{
+    width: 360px;
+    height: 100px;
+    display: inline-block;
+    margin: 0 10px 15px 5px ;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+.color-pink{
+    
+    background-color: var(--main-color-pink);
+}
+
+.color-blue{
+    background-color: var(--main-color-blue);
+}
+
+.color-orange{
+    background-color: var(--main-color-orange);
+}
+
+.color-gray{
+    background-color: var(--main-color-gray);
+}
+
+.font-lato {
+    font-family: var(--font-lato);
+}
+
+.font-taviraj{
+    font-family: var(--font-taviraj);
+}
+
+.font-code{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.fonts{
+    width: 400px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.name-font{
+    text-decoration: underline;
+}
+
+.styles{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
